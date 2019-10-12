@@ -1,0 +1,4 @@
+1º passo: Resgatar as informações do RU (cardápio do dia) - completo
+2º passo: Resgatar as informações do RU com base em um dia escolhido. (com ou sem beautiful soup)
+3º passo: Otimizar as informações para ser passada para uma lista.
+4º passo: Registrar em uma lista (CSV ou RDF) todos os pratos principais de 2018. (mais a ver com o projeto)

@@ -5,7 +5,8 @@ import requests
 import html
 import re
 
-URL = "http://www.sar.unicamp.br/RU/view/site/cardapio.php"
+data = input("digite a data que você deseja saber o cardápio (formato ex: AAAA-MM-DD): ")
+URL = "https://www.sar.unicamp.br/RU/view/site/cardapio.php?data=" + data
 
 try:
     resp = requests.get(URL)
