@@ -25,7 +25,7 @@ try:
         if result is not None:
 
             tipo = tipo + 1
-            
+
             if tipo % 2 == 0:
                 cardapio = "vegetariano"
             else:
