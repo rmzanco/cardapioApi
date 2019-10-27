@@ -4,8 +4,19 @@
 import requests
 import html
 import re
+from datetime import datetime as dt
 
-data = input("digite a data que você deseja saber o cardápio (formato ex: AAAA-MM-DD): ")
+
+def conversor(old):
+    date = dt.strptime(old, '%d/%m/%Y')
+    data = dt.strftime(date, '%Y%m%d')
+    return data
+
+
+old = input("digite a data que você deseja saber o cardápio (formato ex: DD/MM/AAAA): ")
+
+data = conversor(old)
+
 URL = "https://www.sar.unicamp.br/RU/view/site/cardapio.php?data=" + data
 
 try:
@@ -45,7 +56,7 @@ try:
             sobremesa = lista_conteudo[i + 15][80:-5]
             suco = lista_conteudo[i + 18][75:-5]
 
-            print("Cardápio", cardapio, tipo_horario, "de hoje:\n",
+            print("Cardápio", cardapio, tipo_horario, "do dia", old ,"\n",
                   arroz,     ",",
                   prato,     ",",
                   guarnicao, ",",
