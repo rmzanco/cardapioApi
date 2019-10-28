@@ -32,7 +32,7 @@ ru:Maçã
     ru:cardapio "both" ;
     ru:ruKind "sobremesa" ;
     food:ingrdients "apple" ;
-    dc:description dbo:abstract "Apple" .
+    dc:description "Pseudofruto pomáceo da macieira." .
 
 ru:Suco de Uva
     a dbpedia:Drink ;
