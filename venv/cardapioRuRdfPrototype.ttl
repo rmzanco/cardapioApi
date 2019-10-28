@@ -7,45 +7,45 @@
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix dbo:	 <http://dbpedia.org/ontology/> .
 
-ru:Almôndega
+ru:alim1
     a dbpedia:Food ;
-    ru:name food:meatball ;
+    ru:name "Almôndegas" ;
     ru:typefood dbpedia:Meat ;
     ru:cardapio "convencional" ;
     ru:ruKind "prato principal" ;
-    food:ingredients "meat" ;
+    food:ingredients "Meat" ;
     dc:description "Prato cujo ingrediente principal é uma bola de carne magra moída." .
 
-ru:Escarola
+ru:alim2
     a dbpedia:Food ;
-    ru:name food:escarole ;
+    ru:name "Escarola" ;
     ru:typefood dbpedia:Vegetables ;
     ru:cardapio "both" ;
     ru:ruKind "salada" ;
-    food:ingredients "escarole" ;
+    food:ingredients "Escarole" ;
     dc:description "Verdura da família Asteraceae, e do gênero das chicórias, que inclui vários vegetais semelhantes com folhas levemente amargas e crocantes." .
 
-ru:Maçã
+ru:alim3
     a dbpedia:Food ;
-    ru:name food:apple ;
+    ru:name "Maçã" ;
     ru:typefood dbpedia:Fruit ;
     ru:cardapio "both" ;
     ru:ruKind "sobremesa" ;
-    food:ingrdients "apple" ;
+    food:ingrdients "Apple" ;
     dc:description "Pseudofruto pomáceo da macieira." .
 
-ru:SucoDeUva
+ru:alim4
     a dbpedia:Drink ;
-    ru:name food:GrapeJuice ;
+    ru:name "Suco de Uva" ;
     ru:typefood dbpedia:Drink ;
     ru::cardapio "both" ;
     ru:ruKind "suco" ;
     food:ingredients "Grape, Water, Sugar" ;
     dc:description "Bebida que tem a uva como ingrediente base." .
 
-ru:AbobrinhaAgridoce
+ru:alim5
     a dbpedia:Food ;
-    ru:name food:Zucchini ;
+    ru:name "Abobrinha Agridoce" ;
     ru:typefood dbpedia:Fruit_Vegetables ;
     ru:cardapio "vegetariano" ;
     ru:ruKind "prato principal" ;
