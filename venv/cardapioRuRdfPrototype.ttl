@@ -1,0 +1,55 @@
+@prefix dc: 	<http://purl.org/dc/elements/1.1/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food:   <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix fo:     <http://purl.org/ontology/fo/> .
+@prefix ru:     <http://www.sar.unicamp.br/RU/view/site/cardapio.php#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbo:	 <http://dbpedia.org/ontology/> .
+
+ru:Almôndega
+    a dbpedia:Food ;
+    ru:name food:meatball ;
+    ru:typefood dbpedia:Meat ;
+    ru:cardapio "convencional" ;
+    ru:ruKind "prato principal" ;
+    food:ingredients "meat" ;
+    dc:description "Prato cujo ingrediente principal é uma bola de carne magra moída." .
+
+ru:Escarola
+    a dbpedia:Food ;
+    ru:name food:escarole ;
+    ru:typefood dbpedia:Vegetables ;
+    ru:cardapio "both" ;
+    ru:ruKind "salada" ;
+    food:ingredients "escarole" ;
+    dc:description "Verdura da família Asteraceae, e do gênero das chicórias, que inclui vários vegetais semelhantes com folhas levemente amargas e crocantes." .
+
+ru:Maçã
+    a dbpedia:Food ;
+    ru:name food:apple ;
+    ru:typefood dbpedia:Fruit ;
+    ru:cardapio "both" ;
+    ru:ruKind "sobremesa" ;
+    food:ingrdients "apple" ;
+    dc:description dbo:abstract "Apple" .
+
+ru:Suco de Uva
+    a dbpedia:Drink ;
+    ru:name food:Grape Juice ;
+    ru:typefood dbpedia:Drink ;
+    ru::cardapio "both" ;
+    ru:ruKind "suco" ;
+    food:ingredients "Grape, Water, Sugar" ;
+    dc:description "Bebida que tem a uva como ingrediente base." .
+
+ru:Abobrinha agridoce
+    a dbpedia:Food ;
+    ru:name food:Zucchini ;
+    ru:typefood dbpedia:Fruit_Vegetables ;
+    ru:cardapio "vegetariano" ;
+    ru:ruKind "prato principal" ;
+    food:ingredients "Zucchini, Olive Oil, Sugar, Salt" ;
+    dc:description "Abobrinha preparada e cozinhada com condimentos agridoces." .
+
+
