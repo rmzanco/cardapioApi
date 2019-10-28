@@ -34,16 +34,16 @@ ru:Maçã
     food:ingrdients "apple" ;
     dc:description "Pseudofruto pomáceo da macieira." .
 
-ru:Suco de Uva
+ru:SucoDeUva
     a dbpedia:Drink ;
-    ru:name food:Grape Juice ;
+    ru:name food:GrapeJuice ;
     ru:typefood dbpedia:Drink ;
     ru::cardapio "both" ;
     ru:ruKind "suco" ;
     food:ingredients "Grape, Water, Sugar" ;
     dc:description "Bebida que tem a uva como ingrediente base." .
 
-ru:Abobrinha agridoce
+ru:AbobrinhaAgridoce
     a dbpedia:Food ;
     ru:name food:Zucchini ;
     ru:typefood dbpedia:Fruit_Vegetables ;
