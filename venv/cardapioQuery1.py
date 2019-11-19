@@ -8,7 +8,7 @@ ans = g.query(
         SELECT ?food ?desc
         WHERE{ 
         
-        ?a ru:name ?food .
+        ?a rdfs:label ?food .
         ?a dc:description ?desc .
                
         }"""
