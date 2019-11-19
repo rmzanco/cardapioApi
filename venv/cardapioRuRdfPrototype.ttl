@@ -9,47 +9,47 @@
 
 ru:alim1
     a dbpedia:Food ;
-    ru:name "Almôndegas" ;
+    rdfs:label "Almôndegas" ;
     ru:typefood dbpedia:Meat ;
     ru:cardapio "convencional" ;
     ru:ruKind "prato principal" ;
-    food:ingredients "Meat" ;
+    food:ingredients "Meat" @en ;
     dc:description "Prato cujo ingrediente principal é uma bola de carne magra moída." .
 
 ru:alim2
     a dbpedia:Food ;
-    ru:name "Escarola" ;
+    rdfs:label "Escarola" ;
     ru:typefood dbpedia:Vegetables ;
     ru:cardapio "both" ;
     ru:ruKind "salada" ;
-    food:ingredients "Escarole" ;
+    food:ingredients "Escarole" @en ;
     dc:description "Verdura da família Asteraceae, e do gênero das chicórias, que inclui vários vegetais semelhantes com folhas levemente amargas e crocantes." .
 
 ru:alim3
     a dbpedia:Food ;
-    ru:name "Maçã" ;
+    rdfs:label "Maçã" ;
     ru:typefood dbpedia:Fruit ;
     ru:cardapio "both" ;
     ru:ruKind "sobremesa" ;
-    food:ingrdients "Apple" ;
+    food:ingrdients "Apple" @en ;
     dc:description "Pseudofruto pomáceo da macieira." .
 
 ru:alim4
     a dbpedia:Drink ;
-    ru:name "Suco de Uva" ;
+    rdfs:label "Suco de Uva" ;
     ru:typefood dbpedia:Drink ;
     ru::cardapio "both" ;
     ru:ruKind "suco" ;
-    food:ingredients "Grape, Water, Sugar" ;
+    food:ingredients "Grape, Water, Sugar" @en ;
     dc:description "Bebida que tem a uva como ingrediente base." .
 
 ru:alim5
     a dbpedia:Food ;
-    ru:name "Abobrinha Agridoce" ;
+    rdfs:label "Abobrinha Agridoce" ;
     ru:typefood dbpedia:Fruit_Vegetables ;
     ru:cardapio "vegetariano" ;
     ru:ruKind "prato principal" ;
-    food:ingredients "Zucchini, Olive Oil, Sugar, Salt" ;
+    food:ingredients "Zucchini, Olive Oil, Sugar, Salt" @en ;
     dc:description "Abobrinha preparada e cozinhada com condimentos agridoces." .
 
 
