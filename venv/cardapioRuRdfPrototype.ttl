@@ -1,55 +1,79 @@
-@prefix dc: 	<http://purl.org/dc/elements/1.1/> .
-@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
-@prefix food:   <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
-@prefix fo:     <http://purl.org/ontology/fo/> .
-@prefix ru:     <http://www.sar.unicamp.br/RU/view/site/cardapio.php#> .
+@prefix dc: 	 <http://purl.org/dc/elements/1.1/> .
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food:    <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix fo:      <http://purl.org/ontology/fo/> .
+@prefix ru:      <http://www.sar.unicamp.br/RU/view/site/cardapio.php#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix dbo:	 <http://dbpedia.org/ontology/> .
+@prefix owl:   	 <http://www.w3.org/2002/07/owl#> .
 
 ru:alim1
-    a dbpedia:Food ;
+    a dbo:Food ;
     rdfs:label "Almôndegas" ;
     ru:typefood dbpedia:Meat ;
     ru:cardapio "convencional" ;
     ru:ruKind "prato principal" ;
-    food:ingredients "Meat" @en ;
+    ru:calorias "160" ;
+    food:ingredients "Meat" ;
     dc:description "Prato cujo ingrediente principal é uma bola de carne magra moída." .
 
 ru:alim2
-    a dbpedia:Food ;
+    a dbo:Food ;
     rdfs:label "Escarola" ;
     ru:typefood dbpedia:Vegetables ;
     ru:cardapio "both" ;
     ru:ruKind "salada" ;
-    food:ingredients "Escarole" @en ;
+    ru:calorias "35.3" ;
+    food:ingredients "Escarole" ;
     dc:description "Verdura da família Asteraceae, e do gênero das chicórias, que inclui vários vegetais semelhantes com folhas levemente amargas e crocantes." .
 
 ru:alim3
-    a dbpedia:Food ;
+    a dbo:Food ;
     rdfs:label "Maçã" ;
     ru:typefood dbpedia:Fruit ;
     ru:cardapio "both" ;
     ru:ruKind "sobremesa" ;
-    food:ingrdients "Apple" @en ;
+    ru:calorias "80.1" ;
+    food:ingrdients "Apple" ;
     dc:description "Pseudofruto pomáceo da macieira." .
 
 ru:alim4
-    a dbpedia:Drink ;
+    a dbo:Drink ;
     rdfs:label "Suco de Uva" ;
     ru:typefood dbpedia:Drink ;
     ru::cardapio "both" ;
     ru:ruKind "suco" ;
-    food:ingredients "Grape, Water, Sugar" @en ;
+    ru:calorias "90" ;
+    food:ingredients "Grape, Water, Sugar" ;
     dc:description "Bebida que tem a uva como ingrediente base." .
 
 ru:alim5
-    a dbpedia:Food ;
+    a dbo:Food ;
     rdfs:label "Abobrinha Agridoce" ;
     ru:typefood dbpedia:Fruit_Vegetables ;
     ru:cardapio "vegetariano" ;
-    ru:ruKind "prato principal" ;
-    food:ingredients "Zucchini, Olive Oil, Sugar, Salt" @en ;
+    ru:ruKind "Arroz e Feijao" ;
+    ru:calorias "108" ;
+    food:ingredients "Zucchini, Olive Oil, Sugar, Salt" ;
     dc:description "Abobrinha preparada e cozinhada com condimentos agridoces." .
 
+ru:alim6
+    a dbo:Food ;
+    rdfs:label "Arroz" ;
+    ru:typefood dbpedia:Rice ;
+    ru:cardapio "both" ;
+    ru:ruKind "Arroz e Feijão" ;
+    ru:calorias "220" ;
+    food:ingredients "Rice" ;
+    dc:description " Planta da família das gramíneas que alimenta mais da metade da população humana do mundo." .
 
+ru:alim7
+    a dbo:Food ;
+    rdfs:label "Feijão" ;
+    ru:typefood dbpedia:Feijao ;
+    ru:cardapio "both" ;
+    ru:ruKind "prato principal" ;
+    ru:calorias "120" ;
+    food:ingredients "Bean" ;
+    dc:description "Variedade de sementes de plantas de alguns gêneros da família Fabaceae." .

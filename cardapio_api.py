@@ -1,5 +1,6 @@
 # Rodrigo Malosti Zanco - Sistemas de Informação 017
 # Sistema que através de request pode ser resgatado o cardápio do Restaurante Universitário de Limeira (FT/FCA)
+# data exemplo: 29/10/2019
 
 import requests
 import html
